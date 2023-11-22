@@ -27,4 +27,7 @@
     }
   }
 }
+.btn{
+  margin: 16px;
+}
 </style>

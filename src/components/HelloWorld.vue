@@ -3,14 +3,19 @@
     <h1>{{ msg }}</h1>
    
   </div>
+  
 </template>
 
 <script>
+import {Teleport} from 'vue';
 export default {
-  name: "HelloWorld",
+  // name: "HelloWorld",
   props: {
     msg: String
-  }
+  },
+  components:{
+    // TeleportedComponent:Teleport(Component)
+  },
 };
 </script>
 
